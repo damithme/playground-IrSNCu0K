@@ -19,7 +19,7 @@ There are 2 ways to implement a stack.
 # Array-based Stack
 
 ```java runnable
-public class Stack {
+class Stack {
 
     private int top;
     private int capacity;
@@ -89,7 +89,7 @@ class StackNode {
     int data;
     StackNode next;
 }
-public class Stack {
+class Stack {
 
     private StackNode root;
 
