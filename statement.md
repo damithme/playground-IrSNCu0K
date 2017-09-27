@@ -1,7 +1,15 @@
-# Welcome!
+# Introduction
+Stack is a LIFO (Last in first out) data structure.
 
-This Java template lets you get started quickly with a simple one-page playground.
+# Operations
 
+pop() – adds an element in the stack.
+push() – removes an element from the stack.
+peek() – get the top element without removing it.
+isEmpty() – checks whether stack is empty or not.
+isFull() – checks whether stack is full or not.
+
+![Stack](https://github.com/damithme/playground-IrSNCu0K/blob/master/stack-2-2.png)
 ```java runnable
 // { autofold
 public class Main {
@@ -18,7 +26,3 @@ System.out.println(message);
 }
 //}
 ```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
