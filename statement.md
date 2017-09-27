@@ -61,17 +61,21 @@ class Stack {
         return this.array[this.top];
     }
 
-    public static void main(String[] args) {
-        //capacity
-        Stack stack = new Stack(5);
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
+}
 
-        System.out.println(String.format("%d popped", stack.pop()));
-        System.out.println(String.format("%d peeked", stack.peek()));
+public class Main {
 
-    }
+  public static void main(String[] args) {
+      //capacity
+      Stack stack = new Stack(5);
+      stack.push(1);
+      stack.push(2);
+      stack.push(3);
+
+      System.out.println(String.format("%d popped", stack.pop()));
+      System.out.println(String.format("%d peeked", stack.peek()));
+
+  }
 }
 ```
 
@@ -124,15 +128,18 @@ class Stack {
 
         return this.root.data;
     }
+}
 
-    public static void main(String[] args) {
-        Stack stack = new Stack();
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        System.out.println(String.format("%d popped.", stack.pop()));
-        System.out.println(String.format("%d peeked.", stack.peek()));
-    }
+public class Main {
+  
+  public static void main(String[] args) {
+      Stack stack = new Stack();
+      stack.push(1);
+      stack.push(2);
+      stack.push(3);
+      System.out.println(String.format("%d popped.", stack.pop()));
+      System.out.println(String.format("%d peeked.", stack.peek()));
+  }
 }
 ```
 
@@ -141,3 +148,5 @@ class Stack {
 
 **Cons:-**
 + Requires extra memory to keep details about next node.
+
+Original post : - http://mydevgeek.com/stack-data-strurcture/
