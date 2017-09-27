@@ -9,8 +9,10 @@ Stack is a LIFO (Last in first out) data structure.
 4. **isEmpty()** – checks whether stack is empty or not.
 5. **isFull()** – checks whether stack is full or not.
 
-![Stack](https://github.com/damithme/playground-IrSNCu0K/blob/master/stack-2-2.png)
+![Stack](stack-2-2.png)
 ![Minion](http://octodex.github.com/images/minion.png)
+
+![s](playground-IrSNCu0K/stack-2-2.png)
 ```java runnable
 // { autofold
 public class Main {
